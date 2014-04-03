@@ -28,7 +28,8 @@ Forked from:
 
 5. You're virtual server has been created! Open a browser and visit http://localhost:8888 and follow the prompts to finish the Drupal installation. Note that your local DB Name, Username, and Password are: drupal
 
-DO NOT USE THESE CREDENTIALS OUTSIDE OF YOU DEV ENVIRONMENT AS THEY ARE OBVIOUSLY VERY WEAK!!! If you'd like to alter the default local DB you can do so on line 15 of modules/drupal/manifests/init.pp
+        DO NOT USE THESE CREDENTIALS OUTSIDE OF YOUR DEV ENVIRONMENT AS THEY ARE OBVIOUSLY VERY WEAK!!! 
+        If you'd like to alter the default local DB you can do so on line 15 of modules/drupal/manifests/init.pp
 
 
 Optional: If you'd like to access your new Drupal server via the terminal, issue the following command while in the Git repo root:
