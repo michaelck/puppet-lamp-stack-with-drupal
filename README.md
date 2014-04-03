@@ -4,8 +4,9 @@ Allows those with an interest in exploring Drupal an easy way to create a virtua
 
 ## This would not exist without the following repositories:
 Forked from:
-* [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack).
+* [michaelck/puppet-lamp-stack-for-omeka](https://github.com/michaelck/puppet-lamp-stack-for-omeka)
 * Which was based on:
+* [jrodriguezjr/puppet-lamp-stack](https://github.com/jrodriguezjr/puppet-lamp-stack).
 * [PerishableDave/puppet-lamp-stack](https://github.com/PerishableDave/puppet-lamp-stack).
 * [jas0nkim/my-vagrant-puppet-lamp](https://github.com/jas0nkim/my-vagrant-puppet-lamp).
 
