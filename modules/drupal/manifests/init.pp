@@ -20,12 +20,12 @@ class drupal {
   exec { 'download-drupal':
     command => 'wget http://ftp.drupal.org/files/projects/drupal-7.31.tar.gz',
     cwd     => '/vagrant/webroot/',
-    creates => '/vagrant/webroot/drupal-7.26.tar.gz'
+    creates => '/vagrant/webroot/drupal-7.31.tar.gz'
   }
 
   exec { 'tar-drupal':
     cwd     => '/vagrant/webroot/',
-    command => 'tar -xzvf drupal-7.28.tar.gz --strip 1',
+    command => 'tar -xzvf drupal-7.31.tar.gz --strip 1',
     require => Exec['download-drupal'],
    
   }
