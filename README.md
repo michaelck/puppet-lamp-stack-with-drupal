@@ -1,4 +1,4 @@
-# LAMP Stacks ready for Drupal 7.31 with Vagrant & Puppet
+# LAMP Stacks ready for Drupal 7.38 with Vagrant & Puppet
 
 Allows those with an interest in exploring Drupal an easy way to create a virtual development environment.
 
