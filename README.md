@@ -1,4 +1,4 @@
-# LAMP Stacks ready for Drupal 7.38 with Vagrant & Puppet
+# LAMP Stacks ready for Drupal 7.39 with Vagrant & Puppet
 
 Allows those with an interest in exploring Drupal an easy way to create a virtual development environment.
 
@@ -28,14 +28,14 @@ Forked from:
 
 5. You're virtual server has been created! Open a browser and visit http://localhost:8888 and follow the prompts to finish the Drupal installation. Note that your local DB Name, Username, and Password are: drupal
 
-WARNING: DO NOT USE THESE CREDENTIALS OUTSIDE OF YOUR DEV ENVIRONMENT AS THEY ARE OBVIOUSLY VERY WEAK!!! 
+WARNING: DO NOT USE THESE CREDENTIALS OUTSIDE OF YOUR DEV ENVIRONMENT AS THEY ARE OBVIOUSLY VERY WEAK!!!
 If you'd like to alter the default local DB User you can do so on line 15 of modules/drupal/manifests/init.pp
 
 
 Optional: If you'd like to access your new Drupal server via the terminal, issue the following command while in the Git repo root:
 
         $ vagrant ssh
-        
+
 
 
 ## System Package include
